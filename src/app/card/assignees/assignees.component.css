@@ -1,0 +1,24 @@
+.assignees-container{  
+    text-align: center;
+}
+
+.assignees-container .btn{
+    background-color: darkorange;
+    border-radius: 40%;
+    color: white;
+    width: 32px;
+}
+
+.workflow-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.workflow-container mat-icon{
+    font-size: small;
+}
+
+.blue-text{
+    font-weight: bold;
+    color: blue;
+}
