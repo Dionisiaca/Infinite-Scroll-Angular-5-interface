@@ -1,0 +1,22 @@
+.card-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.rating-star{
+    font-size: medium;
+    color: darkgoldenrod;
+    width:  12px;
+}
+
+.rating-container, .post-date-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-info-container span{
+    font-weight: bold;
+    color: blue;
+}
