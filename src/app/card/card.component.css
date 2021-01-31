@@ -1,7 +1,11 @@
 .idea-element{
     background-color: #0c8d9f;
     color: white;
-    width: 78px;
+    width: 75px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    z-index: 1;
+    position: absolute;
 }
 .image{
     width: 100%;
@@ -15,3 +19,6 @@ h5{
     padding-top: 5rem;
 }
 
+.example-card mat-icon{
+    margin-left: 5rem;
+}
