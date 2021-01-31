@@ -1,9 +1,5 @@
-.assignees-container{  
-    text-align: center;
-}
-
 .assignees-container .btn{
-    background-color: darkorange;
+    background-color: #ff9800;
     border-radius: 40%;
     color: white;
     width: 32px;
@@ -20,5 +16,5 @@
 
 .blue-text{
     font-weight: bold;
-    color: blue;
+    color: #0c8d9f;
 }

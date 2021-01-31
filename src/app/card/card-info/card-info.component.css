@@ -7,7 +7,7 @@
 
 .rating-star{
     font-size: medium;
-    color: darkgoldenrod;
+    color: #ff9800;
     width:  12px;
 }
 
@@ -16,7 +16,7 @@
     flex-direction: row;
 }
 
-.card-info-container span{
+.blue-text{
     font-weight: bold;
-    color: blue;
+    color: #0c8d9f;
 }
