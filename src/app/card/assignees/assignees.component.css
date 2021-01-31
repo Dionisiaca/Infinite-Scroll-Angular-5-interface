@@ -18,3 +18,24 @@
     font-weight: bold;
     color: #0c8d9f;
 }
+
+@media screen and (max-width: 992px){
+   .assignees-container{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       padding-left: 0;
+   }
+   .reverse-container{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .reverse-container div{
+       padding-bottom: 1rem;
+   }
+   .workflow-container{
+       justify-content: center;
+       align-items: center;
+   }
+}

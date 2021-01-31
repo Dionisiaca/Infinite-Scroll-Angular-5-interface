@@ -20,3 +20,12 @@
     font-weight: bold;
     color: #0c8d9f;
 }
+
+
+/** RESPONSIVE */
+@media screen and (max-width: 992px){
+    .card-info-container{
+        align-items: center;
+        padding-top: 2rem;
+    }
+}

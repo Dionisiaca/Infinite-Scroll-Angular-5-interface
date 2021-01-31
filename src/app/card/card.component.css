@@ -25,3 +25,24 @@ h5{
 .example-card mat-icon{
     margin-left: 5rem;
 }
+
+.card-title-2{
+    display: none;
+}
+
+/** RESPONSIVE */
+@media screen and (max-width: 992px){
+    .image{
+        max-width: 100%;
+    }
+    h5{
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .card-title-2{
+        display: block;
+    }
+    .card-title-1{
+        display: none;
+    }
+}
