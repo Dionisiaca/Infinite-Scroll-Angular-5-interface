@@ -28,4 +28,7 @@
         align-items: center;
         padding-top: 2rem;
     }
+    .hidden-txt{
+        display: none;
+    }
 }
