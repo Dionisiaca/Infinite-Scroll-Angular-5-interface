@@ -1,4 +1,11 @@
 <div class="container">
+<div class="infinite-scroll"
+infiniteScroll
+[infiniteScrollDistance] = "2"
+[infiniteScrollThrottle] = "50"
+(scrolled)="onScroll()"
+*ngFor="let card of cardsArr"
+>
   <div class="row">
     <div class="col-xs-1 idea-container margin-right-md">
       <mat-card class="idea-element">
@@ -8,7 +15,7 @@
   </div>
   <div class="row">
     <div class="col-xs-12 margin-top-xl">
-      <mat-card class="example-card">
+      <mat-card>
         <div class="row">
           <div class="col-xs-1 margin-left-xl">
             <mat-icon>assignment</mat-icon>
@@ -16,10 +23,10 @@
         </div>
         <div class="row margin-top-lg">
           <div class="col-xs-12 col-md-5">
-            <img class= "image img-responsive" src="../../assets/image.png">
+            <img class= "image img-responsive" src="{{card.imagesrc}}">
           </div>
           <div class="col-xs-12 col-md-3 card-title-1">
-            <h5>Idea Summary</h5>
+            <h5>{{card.name}}</h5>
           </div>
           <div class="col-xs-12 col-md-4">
             <app-card-info></app-card-info>            
@@ -37,3 +44,5 @@
     </div>
   </div>
 </div>
+</div>
+

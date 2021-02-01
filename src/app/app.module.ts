@@ -8,6 +8,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { CardComponent } from './card/card.component';
 import { CardInfoComponent } from './card/card-info/card-info.component';
 import { AssigneesComponent } from './card/assignees/assignees.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 @NgModule({
@@ -15,11 +16,12 @@ import { AssigneesComponent } from './card/assignees/assignees.component';
     AppComponent,
     CardComponent,
     CardInfoComponent,
-    AssigneesComponent
+    AssigneesComponent,
   ],
   imports: [
     BrowserModule,
     InfiniteScrollModule,
+    NgxSpinnerModule,
     MaterialModule,
   ],
   providers: [],
